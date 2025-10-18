@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/InShot_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    overflow-x: hidden;
+}
+section .website {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+section .website .list ul li{
+    display: inline-block;
+    margin: 0 10px ;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+}
+section .website .list ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.2s;
+}
+section .website .list ul li a::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 253, 255);
+    display: block;
+}
+section .website .list ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+section .website .logo h1{
+    font-style: inherit;
+    font-weight: 600;
+    font-family: 'Times New Roman';
+    color: rgb(236, 226, 226);
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+section .website button {
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height : 30px ;
+    border-style: hidden;
+    border-radius: 10px;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+section .website .btn {
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+}
+section .website .btn1 {
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+}
+section .website button a {
+    color: rgb(97, 26, 40);
+    text-decoration: none;
+}
+section .website .about h1 {
+    position: relative;
+    right: 720px;
+    top: 230px;
+    font-size: 35px;
+    color: rgb(201, 192, 192);
+}
+section .website .about h2{
+    position: relative;
+    right: 480px;
+    top: 240px;
+    font-size: 30px;
+    color: rgb(248, 168, 168);
+}
+section .website .about p {
+    position: relative;
+    right: 720px;
+    top: 260px;
+    font-size: 13px;
+    color: rgb(233, 213, 213);
+    font-weight: 600;
+    font-family: monospace;
+}
+section .website .button button{
+    position: relative;
+    right: 1170px;
+    top: 400px;
+    background-color: rgb(255, 246, 246);
+    width: 130px;
+    height: 30px;
+    border-style: hidden;
+    border-radius: 10px;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    font-weight: 700;
+}
+section .website .button button a {
+    color: rgb(78, 9, 23);
+    text-decoration: none;
+}
